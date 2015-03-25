@@ -14,6 +14,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem "paperclip", "~> 4.2"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
+# Heroku
+gem 'rails_12factor'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
