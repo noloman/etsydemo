@@ -8,4 +8,7 @@ class Listing < ActiveRecord::Base
 		validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/,
 		:path => ":style/:id_:filename"
 	end
+
+	validates :name, :description, :price, presence: :true
+	validates :price, numericality: { greater_than: 0 }
 end
