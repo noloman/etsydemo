@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for devise gem
   # Remember to change localhost:3000 to actual app host
-  config.action_mailer.default_url_options = { host: 'http://www.etsy-demo.heroku.com', port: 3000 }
+  config.action_mailer.default_url_options = { host: 'http://www.etsy-demo.herokuapp.com', port: 3000 }
 end
