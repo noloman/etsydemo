@@ -13,4 +13,5 @@ class Listing < ActiveRecord::Base
 	validates :price, numericality: { greater_than: 0 }
 
 	belongs_to :user
+	has_many :order
 end
