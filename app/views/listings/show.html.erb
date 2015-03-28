@@ -9,6 +9,10 @@
 		<p><%= number_to_currency(@listing.price) %></p>
 		<p>Sold by <%= @listing.user.name %></p>
 		<%= @listing.description %>
+		<br />
+		<div class="center">
+			<%= link_to "Buy it now", new_listing_order_path(@listing), class: "btn btn-primary" %>
+		</div>
 	</div>
 </div>
 <% if (user_signed_in?) && (current_user == @listing.user) %>
