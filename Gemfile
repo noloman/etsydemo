@@ -15,6 +15,8 @@ gem "paperclip", "~> 4.2"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'devise'
+# Payments - stripe
+gem 'stripe-rails'
 # Heroku
 gem 'rails_12factor'
 # Use jquery as the JavaScript library
