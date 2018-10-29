@@ -40,9 +40,9 @@ GEM
     autoprefixer-rails (5.1.7.1)
       execjs
       json
-    binding_of_caller (0.8.0)
     bcrypt (3.1.12)
       debug_inspector (>= 0.0.1)
+    binding_of_caller (0.8.0)
     bootstrap-sass (3.3.4.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -193,8 +193,9 @@ GEM
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (2.0.8)
-    turbolinks (2.5.3)
-      coffee-rails
+    turbolinks (5.2.0)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (4.1.19)
