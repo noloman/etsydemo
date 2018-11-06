@@ -11,7 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem "paperclip", "~> 4.3"
+gem "paperclip", ">= 5.2.0"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'devise'
