@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.3.8'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.2.1'
 # Use SCSS for stylesheets
@@ -11,8 +11,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-gem "paperclip", ">= 5.2.0"
-gem "paperclip-dropbox", ">= 1.1.7"
+gem "paperclip"
+gem "paperclip-dropbox"
 gem "figaro"
 gem 'devise'
 # Payments - stripe
