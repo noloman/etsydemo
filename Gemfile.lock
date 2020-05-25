@@ -173,8 +173,8 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
-    stripe (5.7.1)
-    stripe-rails (1.9.1)
+    stripe (5.17.0)
+    stripe-rails (1.10.0)
       rails (>= 3)
       responders
       stripe (>= 1.36.2)
