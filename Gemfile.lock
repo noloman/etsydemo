@@ -173,8 +173,8 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
-    stripe (5.17.0)
-    stripe-rails (1.10.0)
+    stripe (5.22.0)
+    stripe-rails (1.10.1)
       rails (>= 3)
       responders
       stripe (>= 1.36.2)
@@ -197,7 +197,7 @@ GEM
       activemodel (>= 5.0)
       bindex (>= 0.4.0)
       railties (>= 5.0)
-    websocket-driver (0.7.1)
+    websocket-driver (0.7.2)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
 
