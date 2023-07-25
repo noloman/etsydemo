@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.7.8'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.4.4'
+gem 'rails', '5.2.8.1'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 3.2'
