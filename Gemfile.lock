@@ -259,7 +259,7 @@ DEPENDENCIES
   coffee-rails (~> 5.0.0)
   devise
   figaro
-  jbuilder (~> 2.10)
+  jbuilder (~> 2.11)
   jquery-rails
   paperclip
   paperclip-dropbox
