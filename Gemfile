@@ -15,6 +15,7 @@ gem "paperclip"
 gem "paperclip-dropbox"
 gem "figaro"
 gem 'devise'
+gem 'brakeman'
 # Payments - stripe
 gem 'stripe-rails'
 # Heroku
