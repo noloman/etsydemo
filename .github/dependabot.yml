@@ -1,0 +1,22 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: sdoc
+    versions:
+    - 2.0.3
+    - 2.0.4
+  - dependency-name: rails
+    versions:
+    - 5.2.4.5
+  - dependency-name: jbuilder
+    versions:
+    - 2.11.1
+  - dependency-name: stripe-rails
+    versions:
+    - 2.2.1
