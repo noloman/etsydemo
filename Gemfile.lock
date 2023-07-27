@@ -73,11 +73,10 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    brakeman (6.0.1)
     builder (3.2.4)
     byebug (11.1.3)
     climate_control (0.2.0)
-    cocaine (0.5.8)
-      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 5.2.0)
@@ -130,7 +129,6 @@ GEM
       nokogiri (~> 1)
       rake
     mini_mime (1.1.2)
-    mini_portile2 (2.8.4)
     minitest (5.18.1)
     net-imap (0.3.6)
       date
@@ -142,16 +140,15 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.3)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.15.3-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
-    paperclip (5.2.0)
+    paperclip (6.1.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
-      cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
+      terrapin (~> 0.6.0)
     paperclip-dropbox (0.0.2)
       dropbox-sdk (~> 1.3)
     pg (1.5.3)
@@ -220,14 +217,15 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.3)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.3-x86_64-linux)
     stringio (3.0.7)
     stripe (8.6.0)
     stripe-rails (2.4.0)
       rails (>= 5.1)
       responders
       stripe (>= 3.15.0)
+    terrapin (0.6.0)
+      climate_control (>= 0.0.3, < 1.0)
     thor (1.2.2)
     tilt (2.2.0)
     timeout (0.4.0)
@@ -251,10 +249,11 @@ GEM
     zeitwerk (2.6.9)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   bootstrap-sass (~> 3.4.1)
+  brakeman
   byebug
   coffee-rails (~> 5.0.0)
   devise
